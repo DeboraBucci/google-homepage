@@ -1,8 +1,73 @@
 /* SELECTORS
 ------------------------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 /* NAV 
 ------------------------------------------ */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.apps{
+    opacity: 0.9;
+    display: inline-block;
+    vertical-align: middle;
+    color: grey;
+}
+
+.left-nav{
+    margin: 10px;
+}
+
+.left-nav a{
+    margin-right: 10px;
+}
+
+.right-nav a, button{
+    margin-left: 10px;
+}
+
+.sign-in{
+    background: #1a73e8;
+    border: #1a73e8;
+    color: white;
+    text-shadow: 0 0 0 white;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.underline{
+    color: #535353;
+}
+
+.underline:hover,
+.underline:focus{
+    border-bottom: 1px solid grey;
+}
+
+.apps:hover,
+.apps:focus{
+    color: black;
+}
+
+.sign-in:hover,
+.sign-in:focus{
+    opacity: 0.8;
+}
 
 /* BANNER
 ------------------------------------------ */
